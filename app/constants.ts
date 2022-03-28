@@ -22,7 +22,7 @@ export const FAQ_MESSAGE = `\
 A file containing your public key, base64 message, and base64 signature will be generated and downloaded automatically.
 
 - What do I do after downloading the file?
-The Cashio team will create a form for people to send their submissions. For now, please securely save the generated message file.
+Click the "Submit" tab at the top of this page to send your file to the Cashio team.
 
 - How do I update my message after I've already submitted?
 Create a new message with the same wallet and generate a new file
