@@ -30,6 +30,7 @@ const Nav: FC = (props) => {
     <div className={clsx('flex w-full flex-row justify-center py-5')}>
       <NavItem href="/" name="home" />
       <NavItem href="/create" name="create" />
+      <NavItem href="/submit" name="submit" />
     </div>
   )
 }
