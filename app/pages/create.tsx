@@ -29,6 +29,7 @@ const Submit: NextPage = () => {
     signature,
     publicKeyBuffer,
   }: any) => {
+    console.log({ message, signature })
     if (
       !nacl.sign.detached.verify(
         Buffer.from(message, 'base64'),
