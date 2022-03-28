@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           />
         </Head>
         <div className="mt-5 flex flex-row items-center">
-          <img src="/cashio.png" height="48px" width="48px" />
+          <img src="cashio.png" height="48px" width="48px" />
           <p className="ml-2 text-2xl">cashio.app refunds</p>
         </div>
         <Nav />
