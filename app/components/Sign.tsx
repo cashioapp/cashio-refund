@@ -34,7 +34,7 @@ const Sign: FC<Props> = (props) => {
         message = Buffer.from(props.message).toString('base64')
       } catch (e) {
         alert(
-          "We couldn't sign the message using Phantom. This will instead send a memo. The transaction will not be sent and you will not pay any fees."
+          'You will be signing a transaction containing your message. The transaction will not be sent and you will not pay any fees. If your message is too long, you will get an error and you should create multiple submissions.'
         )
 
         const resp = await solana.request({ method: 'connect' })
