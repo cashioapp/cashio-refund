@@ -29,7 +29,7 @@ const Submit: NextPage = () => {
       </p>
       <p className="mb-5 text-red-500">
         As the hacker stated, "returns will start next week manually". The
-        deadline to submit this form is April 3, 2022 at 00:00 UTC.
+        deadline to submit this form is April 1, 2022 at 00:00 UTC.
       </p>
       <iframe
         className="airtable-embed"
